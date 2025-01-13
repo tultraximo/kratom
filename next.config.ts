@@ -26,7 +26,7 @@ const nextConfig: NextConfig = {
 	experimental: {
 		esmExternals: true,
 		scrollRestoration: true,
-		ppr: true,
+		// ppr: true,
 		cpus: 1,
 		reactOwnerStack: true,
 		reactCompiler: true,

@@ -31,6 +31,10 @@ export default async function CategoryPage(props: {
 	params: Promise<{ slug: string }>;
 }) {
 	const params = await props.params;
+	// if (!params.slug) {
+	//     console.error("Slug is undefined");
+	//     return notFound(); // Or handle this case differently
+	// }
 	const products = await Commerce.productBrowse({
 		first: 100,
 		filter: { category: params.slug },

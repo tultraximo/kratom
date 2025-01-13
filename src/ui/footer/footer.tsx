@@ -16,12 +16,12 @@ const sections = [
 		header: "Support",
 		links: [
 			{
-				label: "Features",
-				href: "https://yournextstore.com/#features",
+				label: "FAQ",
+				href: "/",
 			},
 			{
-				label: "Pricing",
-				href: "https://yournextstore.com/#pricing",
+				label: "Bulk Pricing",
+				href: "/",
 			},
 			{
 				label: "Contact Us",
@@ -63,8 +63,8 @@ export async function Footer() {
 			</div>
 			<div className="container mt-8 flex max-w-7xl flex-col items-center justify-between gap-4 text-sm text-neutral-500 md:flex-row">
 				<div>
-					<p>© 2024 Your Next Store</p>
-					<p>Delightful commerce for everyone</p>
+					<p>2025 - 7oh Premium inc.</p>
+					<p>Delightful products for everyone</p>
 				</div>
 				<div className="flex items-center gap-4">
 					<YnsLink

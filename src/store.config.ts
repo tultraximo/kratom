@@ -1,10 +1,10 @@
-import AccessoriesImage from "@/images/accessories.jpg";
-import ApparelImage from "@/images/apparel.jpg";
+import AccessoriesImage from "@/images/7oh-powder.png";
+import ApparelImage from "@/images/7ohpills.png";
 
 export const config = {
 	categories: [
-		{ name: "Apparel", slug: "apparel", image: ApparelImage },
-		{ name: "Accessories", slug: "accessories", image: AccessoriesImage },
+		{ name: "Kratom", slug: "kratom", image: ApparelImage },
+		{ name: "Other", slug: "other", image: AccessoriesImage },
 	],
 
 	social: {
